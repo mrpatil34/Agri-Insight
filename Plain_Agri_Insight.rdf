@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <!-- Ontology -->
+    <owl:Ontology rdf:about="http://example.org/"/>
+
+    <!-- Classes -->
+    <rdf:Description rdf:about="http://example.org/AdaptationStrategy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/CO2Emission">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Country">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Crop">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/CropYield">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/EconomicImpact">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/ExtremeWeatherEvent">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/FertilizersUsed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/HowItAffectsSoil">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Irrigation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/IrrigationAccess">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/IrrigationType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Machine">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/PesticidesUsed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Rainfall">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Region">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Season">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Soil">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/SoilHealth">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/SoilType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Temperature">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/Year">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <!-- Object Properties -->
+    <rdf:Description rdf:about="http://example.org/affectsSoil">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/growsInRegion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/hasAdaptationStrategy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/hasCO2Emission">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/hasEconomicImpact">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/hasRainfall">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/hasSeason">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/hasTemperature">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/hasYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/usesFertilizer">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/usesIrrigation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/usesPesticide">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </rdf:Description>
+
+    <!-- Data Properties -->
+    <rdf:Description rdf:about="http://example.org/adaptationDescription">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/CO2Value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/economicImpactValue">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/fertilizerType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/pesticideType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/rainfallValue">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/seasonName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/soilHealthIndex">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/temperatureValue">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/yieldPerHectare">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    </rdf:Description>
+    </rdf:RDF>

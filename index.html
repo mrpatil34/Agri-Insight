@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriInsights</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-image: url('https://foodtank.com/wp-content/uploads/2020/08/FoodTank_agriculturesubsidiesworldbankreport.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    /* Semi-Transparent Overlay */
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+      z-index: 1;
+    }
+
+    /* Content Container */
+    .content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+
+    /* Heading and Paragraph */
+    h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      color: #ffffff;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.4rem;
+      color: #ffffff;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+      margin-bottom: 30px;
+    }
+
+    /* Button Styling */
+    .button {
+      background-color: #4CAF50; /* Green background */
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    .button:hover {
+      background-color: #45a049; /* Darker green on hover */
+      transform: scale(1.1); /* Slight zoom effect */
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    }
+
+    /* Button Container */
+    .button-container {
+      margin-top: 20px;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Content Section -->
+  <div class="content">
+    <h1>Welcome to AgriInsights</h1>
+    <p>Explore data-driven insights in agriculture and food systems.</p>
+    <div class="button-container">
+      <a href="dashboards.html">
+        <button class="button">View Dashboards</button>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

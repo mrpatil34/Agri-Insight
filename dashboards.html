@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriInsights Dashboards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #f0f8ff;
+    }
+    h1 {
+      color: #228b22;
+      margin-top: 20px;
+    }
+    #embedContainer {
+      width: 90%;
+      height: 600px;
+      border: 2px solid #ccc;
+      margin: 20px 0;
+    }
+    .buttons {
+      margin-top: 10px;
+    }
+    button {
+      background-color: #228b22;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #1e7d1e;
+    }
+  </style>
+</head>
+<body>
+  <h1>AgriInsights Dashboards</h1>
+  <div id="embedContainer">
+    <iframe id="dashboardIframe" width="100%" height="600px" frameborder="0" style="border:0"></iframe>
+  </div>
+  <div class="buttons">
+    <button onclick="loadDashboard('dashboard1')">Dashboard 1</button>
+    <button onclick="loadDashboard('dashboard2')">Dashboard 2</button>
+    <button onclick="loadDashboard('dashboard3')">Dashboard 3</button>
+  </div>
+  <script src="dashboards.js"></script>
+</body>
+</html>
