@@ -1,0 +1,1 @@
+To view the dashboards, just use the index.html file and on clicking the button you will be able to view the dashboards
